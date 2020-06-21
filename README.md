@@ -44,6 +44,15 @@ O template está disponível na seguinte url: **[Acessar Template](https://githu
 
 Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências.
 
+### Como Executar
+
+1. Faça o clone do projeto na sua máquina;
+2. Na raiz do projeto, execute o comando `yarn` para baixar as dependências;
+3. Execute `yarn json-server server.json -p 3333` rodar a api fake;
+4. Execute `yarn test` para rodar os testes;
+5. Execute `yarn start` para rodar o projeto;
+6. Abra o navegador no endereço http://localhost:3000/.
+
 ### Utilizando uma fake API
 
 Antes de tudo, para que você tenha os dados para exibir em tela, criamos um arquivo que você poderá utilizar como fake API para te prover esses dados.
